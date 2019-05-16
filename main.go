@@ -16,4 +16,16 @@ func main() {
 		sum += i
 	}
 	fmt.Println(sum) // 10 (1+2+3+4)
+
+	n := 1
+	for n < 5 {
+		n *= 2
+	}
+	fmt.Println(n) // 8 (1*2*2*2)
+
+	var card1 = "Ace of Clubs"
+	var card2 = "King of Diamonds"
+
+	fmt.Println(card1)
+	fmt.Println(card2)
 }
