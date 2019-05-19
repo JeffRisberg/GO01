@@ -31,7 +31,13 @@ func main() {
 	}
 	fmt.Println(n) // 8 (1*2*2*2)
 
-	var card = newCard()
+	card := newCard()
+	cardValue := newCardValue()
 
 	fmt.Println(card)
+	fmt.Print(cardValue)
+}
+
+func newCardValue() int {
+	return 1
 }
