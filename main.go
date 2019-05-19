@@ -2,6 +2,14 @@ package main
 
 import "fmt"
 
+func newCard() string {
+	var card string
+
+	card = "Ace of Spades"
+
+	return card
+}
+
 func main() {
 	var count = 1
 
@@ -23,9 +31,7 @@ func main() {
 	}
 	fmt.Println(n) // 8 (1*2*2*2)
 
-	var card1 = "Ace of Clubs"
-	var card2 = "King of Diamonds"
+	var card = newCard()
 
-	fmt.Println(card1)
-	fmt.Println(card2)
+	fmt.Println(card)
 }
