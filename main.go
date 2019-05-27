@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func newCard() string {
 	var card string
@@ -11,7 +14,7 @@ func newCard() string {
 }
 
 func main() {
-	var count = 1
+	var count int16 = 1
 
 	if count == 0 {
 		fmt.Println("Hello World")
@@ -19,7 +22,10 @@ func main() {
 		fmt.Println("Goodbye World")
 	}
 
-	sum := 0
+	greetings := []string{"Hello", "world!"}
+	fmt.Println(strings.Join(greetings, " "))
+
+	var sum = 0
 	for i := 1; i < 5; i++ {
 		sum += i
 	}
