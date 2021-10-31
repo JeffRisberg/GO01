@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8839b819-de50-40e7-ab48-901250bd3a20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -149,7 +148,7 @@
       <workItem from="1558938692582" duration="1450000" />
       <workItem from="1559714727205" duration="785000" />
       <workItem from="1635684006406" duration="103000" />
-      <workItem from="1635684122151" duration="200000" />
+      <workItem from="1635684122151" duration="733000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1557982499024</created>
@@ -207,7 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558933770868</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="don't gitstore the build result">
+      <created>1635684617270</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1635684617270</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added intelliJ files">
+      <created>1635684664818</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1635684664818</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -254,7 +267,9 @@
     <MESSAGE value="end of lecture 14" />
     <MESSAGE value="string concat example" />
     <MESSAGE value="type checking example" />
-    <option name="LAST_COMMIT_MESSAGE" value="type checking example" />
+    <MESSAGE value="don't gitstore the build result" />
+    <MESSAGE value="added intelliJ files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added intelliJ files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
