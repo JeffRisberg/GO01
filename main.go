@@ -13,6 +13,25 @@ func newCard() string {
 	return card
 }
 
+// Create a new type of 'deck'
+// which is a slice of strings
+type deck []string
+
+func newDeck() deck {
+	cards := deck{}
+
+	cardSuits := []string{"Spades", "Diamonds", "Hearts", "Clubs"}
+	cardValues := []string{"Ace", "Two", "Three", "Four"}
+
+	for _, suit := range cardSuits {
+		for _, value := range cardValues {
+			cards = append(cards, value+" of "+suit)
+		}
+	}
+
+	return cards
+}
+
 func main() {
 	var count int16 = 1
 
@@ -37,9 +56,11 @@ func main() {
 	}
 	fmt.Println(n) // 8 (1*2*2*2)
 
+	deck := newDeck()
 	card := newCard()
 	cardValue := newCardValue()
 
+	fmt.Println(deck);
 	fmt.Println(card)
 	fmt.Println(cardValue)
 
