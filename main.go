@@ -13,7 +13,7 @@ func newCard() string {
 	return card
 }
 
-// Create a new type of 'deck'
+// Create a new type called 'deck'
 // which is a slice of strings
 type deck []string
 
@@ -60,7 +60,7 @@ func main() {
 	card := newCard()
 	cardValue := newCardValue()
 
-	fmt.Println(deck);
+	fmt.Println(deck)
 	fmt.Println(card)
 	fmt.Println(cardValue)
 
